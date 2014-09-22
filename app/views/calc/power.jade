@@ -1,0 +1,15 @@
+extends ../shared/template
+
+block content
+  h1 Calc Power
+
+  form#pow
+    input(type='text', name='num1')
+    | ^
+    input(type='text', name='num2')
+    button#exponentiate Exponentiate
+
+  #result
+
+block scripts
+  script(src='/js/es6/compiled/pow.js')

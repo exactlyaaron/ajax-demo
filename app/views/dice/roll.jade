@@ -1,0 +1,12 @@
+extends ../shared/template
+
+block content
+  h1 Roll 1 Die
+
+  form#rolldiceform
+    button#rollthedie Roll!
+
+  #dice
+
+block scripts
+  script(src='/js/es6/compiled/roll.js')
